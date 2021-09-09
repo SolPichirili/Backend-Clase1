@@ -35,10 +35,10 @@ class Usuario {
     }
 }
 
-let usuario = new Usuario('Pedro', 'Martinez', [{ nombre: 'Rayuela', autor: 'Julio Cortázar' }, { nombre: 'Mi planta de naranja lima', autor: 'Juan José Vasconcelos' }], ['Penny Lane', 'Diego'])
+let usuario = new Usuario('Pedro', 'Martinez', [{ nombre: 'Rayuela', autor: 'Julio Cortázar' }, { nombre: 'Mi planta de naranja lima', autor: 'José Mauro de Vasconcelos' }], ['gato', 'perro'])
 
 usuario.getFullName();
 usuario.countMascotas();
-usuario.addMascota('Leti');
+usuario.addMascota('loro');
 usuario.addBook('Crónicas Marcianas', 'Ray Bradbury');
 usuario.getBook();
