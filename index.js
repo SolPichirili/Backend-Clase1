@@ -20,11 +20,11 @@ class Usuario {
     }
 
     addBook(nombre, autor) {
-        this.libros.push({ nombre: nombre, autor: autor })
+        this.libros.push({ nombre, autor })
         console.log(this.libros)
     }
 
-    getBook() {
+    getBookNames() {
         const nombresLibros = [];
 
         this.libros.forEach(libro => {
@@ -41,4 +41,4 @@ usuario.getFullName();
 usuario.countMascotas();
 usuario.addMascota('loro');
 usuario.addBook('Crónicas Marcianas', 'Ray Bradbury');
-usuario.getBook();
+usuario.getBookNames();
